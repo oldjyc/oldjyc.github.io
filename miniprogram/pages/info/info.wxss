@@ -1,0 +1,4 @@
+/* width:calc(750rpx*100/375); */
+.img{
+  width: 100%;
+ }

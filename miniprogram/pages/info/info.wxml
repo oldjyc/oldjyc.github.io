@@ -1,0 +1,28 @@
+<!--pages/info/info.wxml-->
+<view class="news1-container">
+  <swiper indicator-dots="{{indicatordots}}" autoplay="{{autoplay}}" interval="{{interval}}">    
+    <swiper-item wx:for="{{imgUrls}}">
+        <image src='{{item}}' width="335" height="150" mode='widthFix' class='img' />
+    </swiper-item>  
+  </swiper>
+</view>
+<text>
+  选择游戏种类
+
+</text>
+
+<navigator url="/pages/demo01/demo01">
+  <button >RPG（角色扮演游戏）</button>
+</navigator>
+
+<navigator url="/pages/demo02/demo02">
+  <button >FPS（第一人称射击游戏）</button>
+</navigator>
+
+<navigator url="/pages/demo03/demo03">
+  <button >ACG（动漫游戏）</button>
+</navigator>
+
+<navigator url="/pages/demo04/demo04">
+  <button >SLG（策略游戏）</button>
+</navigator>

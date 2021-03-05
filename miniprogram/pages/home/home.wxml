@@ -1,0 +1,41 @@
+<!-- <view class='search'>
+  <input placeholder="           搜一搜"></input>
+  <button class="tapbtn1" plain="true" bindtap="skyOnclick">
+    <image class="tapimg1" src='/icon/search.png'></image>
+</button>
+</view> -->
+ <swiper class='banner'indicator-dots='true'indicator-color='white'indicator-active-color='#328EEB'autoplay='true'>
+ <swiper-item >
+  <image src="https://img.tapimg.com/market/images/4e50b8f99d848c7c8f03c973d7d10e4c.jpg?imageMogr2/auto-orient/thumbnail/2080x/strip/gravity/Center/crop/2080x828/format/jpg/quality/80/interlace/1" mode="widthFix"class='autoimg'>  </image>
+ </swiper-item>
+ <swiper-item >
+  <image src="https://img.tapimg.com/market/images/9c453840a6ed390a3d09c258b7bbcd19.jpg?imageMogr2/auto-orient/thumbnail/2080x/strip/gravity/Center/crop/2080x828/format/jpg/quality/80/interlace/1" mode="widthFix"class='autoimg'>  </image>
+ </swiper-item>
+ <swiper-item >
+  <image src="https://img.tapimg.com/market/images/0110dc66152d129ea4a55f890c70dc8c.jpg?imageMogr2/auto-orient/thumbnail/2080x/strip/gravity/Center/crop/2080x828/format/jpg/quality/80/interlace/1" mode="widthFix"class='autoimg'>  </image>
+ </swiper-item>
+</swiper> 
+<view class="container1">
+  <view class="product" wx:for="{{product}}"wx:key='index'>
+    <navigator url="{{item.url}}">
+      <button class="tapbtn1" plain="true" bindtap="skyOnclick">
+        <image class="tapimg1"src="{{item.image_src}}"></image>
+      </button>
+    </navigator>
+    <text>{{item.text}}</text>
+  </view>
+</view>
+
+<view class='recommend'>
+  <text>热门推荐</text>
+</view>
+
+<view class="container2">
+  <view class="product" wx:for="{{game}}"wx:key='index'>
+    <image src="{{item.image_src}}"></image>
+    <navigator url="{{item.url}}">
+      <button>下载</button>
+    </navigator>
+  </view>
+</view>
+<!-- <button bindtap="download">下载文件</button> -->

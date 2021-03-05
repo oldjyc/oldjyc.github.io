@@ -1,0 +1,28 @@
+<!--
+  1.text 行内元素，不会换行
+  2.view 块级元素，会换行,\n在句首
+  3.checkbox 复选框，注意"     {{}}"将导致该标签无意义
+
+<text>"bbyy"</text>
+-->
+<image mode="aspectFit" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1603014752135&di=f5e0dddf526445c0c24f872e7b9bbbc6&imgtype=0&src=http%3A%2F%2Fn.sinaimg.cn%2Fsinacn%2Fw1600h900%2F20180306%2F3446-fxipenn7684200.jpg"/>
+<view>游戏名称：{{game.name1}}</view>
+<view>游戏简介：{{game.info1}}</view>
+<view>游戏测评：{{game.honour1}}</view>
+<navigator url="/pages/end4/end4">
+      <button>下载</button>
+</navigator>
+<image mode="aspectFit" src="https://bkimg.cdn.bcebos.com/pic/b64543a98226cffccfd3a90ab5014a90f703ea89?x-bce-process=image/resize,m_lfit,w_220,h_220,limit_1"/>
+<view>游戏名称：{{game.name2}}</view>
+<view>游戏简介：{{game.info2}}</view>
+<view>游戏测评：{{game.honour2}}</view>
+<navigator url="/pages/end5/end5">
+      <button>下载</button>
+</navigator>
+<image mode="aspectFit" src="https://bkimg.cdn.bcebos.com/pic/5fdf8db1cb134954f5ea7f40544e9258d1094a1a?x-bce-process=image/resize,m_lfit,w_268,limit_1/format,f_jpg"/>
+<view>游戏名称：{{game.name3}}</view>
+<view>游戏简介：{{game.info3}}</view>
+<view>游戏测评：{{game.honour3}}</view>
+<navigator url="/pages/end6/end6">
+      <button>下载</button>
+</navigator>

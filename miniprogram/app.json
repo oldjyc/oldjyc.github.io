@@ -1,0 +1,73 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/index/index",
+    "pages/detail/detail",
+    "pages/my/my",
+    "pages/demo01/demo01",
+    "pages/demo02/demo02",
+    "pages/demo03/demo03",
+    "pages/demo04/demo04",
+    "pages/info/info",
+    "pages/logs/logs",
+    "pages/1/1",
+    "pages/2/2",
+    "pages/3/3",
+    "pages/4/4",
+    "pages/5/5",
+    "pages/6/6",
+    "pages/end1/end1",
+    "pages/end2/end2",
+    "pages/end3/end3",
+    "pages/end4/end4",
+    "pages/end5/end5",
+    "pages/end6/end6",
+    "pages/end7/end7",
+    "pages/end8/end8",
+    "pages/end9/end9",
+    "pages/end10/end10",
+    "pages/end11/end11",
+    "pages/end12/end12"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#328EEB",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "游戏助手",
+    "backgroundColor": "#eeeeee",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": false
+  },
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#328EEB",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "images/index1.png",
+        "selectedIconPath": "images/index2.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "资讯",
+        "iconPath": "images/home1.png",
+        "selectedIconPath": "images/home2.png"
+      },
+      
+      {
+        "pagePath": "pages/info/info",
+        "text": "排行榜",
+        "iconPath": "images/rank1.png",
+        "selectedIconPath": "images/rank2.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "images/my1.png",
+        "selectedIconPath": "images/my2.png"
+      }
+
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

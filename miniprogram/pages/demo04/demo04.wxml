@@ -1,0 +1,29 @@
+<!--
+  1.text 行内元素，不会换行
+  2.view 块级元素，会换行,\n在句首
+  3.checkbox 复选框，注意"     {{}}"将导致该标签无意义
+
+<text>"bbyy"</text>
+-->
+<image mode="aspectFit" src="https://bkimg.cdn.bcebos.com/pic/960a304e251f95cad1c8c0c4f15d683e6709c93df425?x-bce-process=image/resize,m_lfit,w_220,limit_1"/>
+<view>游戏名称：{{game.name1}}</view>
+<view>游戏简介：{{game.info1}}</view>
+<view>游戏测评：{{game.honour1}}</view>
+<navigator url="/pages/end10/end10">
+      <button>下载</button>
+</navigator>
+<image mode="aspectFit" src="https://bkimg.cdn.bcebos.com/pic/37d3d539b6003af3ed976da9342ac65c1138b6ce?x-bce-process=image/resize,m_lfit,w_268,limit_1/format,f_jpg"/>
+<view>游戏名称：{{game.name2}}</view>
+<view>游戏简介：{{game.info2}}</view>
+<view>游戏测评：{{game.honour2}}</view>
+<navigator url="/pages/end11/end11">
+      <button>下载</button>
+</navigator>
+<image mode="aspectFit" src="https://bkimg.cdn.bcebos.com/pic/d31b0ef41bd5ad6ee45dc23a8bcb39dbb7fd3cbd?x-bce-process=image/resize,m_lfit,w_268,limit_1/format,f_jpg"/>
+<view>游戏名称：{{game.name3}}</view>
+<view>游戏简介：{{game.info3}}</view>
+<view>游戏测评：{{game.honour3}}</view>
+<!-- <text>网盘密码：g4t7</text> -->
+<navigator url="/pages/end12/end12">
+      <button>下载</button>
+</navigator>

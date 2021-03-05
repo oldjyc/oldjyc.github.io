@@ -1,0 +1,85 @@
+<!--
+  1.text 行内元素，不会换行
+  2.view 块级元素，会换行,\n在句首
+  3.checkbox 复选框，注意"     {{}}"将导致该标签无意义
+
+<text>"bbyy"</text>
+-->
+<image mode="aspectFit" src="https://s1.ax1x.com/2020/09/28/0VoeaQ.png"/>
+<view>游戏名称：{{game.name1}}</view>
+<view>游戏简介：{{game.info1}}</view>
+<view>游戏测评：{{game.honour1}}</view>
+<navigator url="/pages/end1/end1">
+      <button>下载</button>
+</navigator>
+<image mode="aspectFit" src="https://dss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=788121409,1653019339&fm=26&gp=0.jpg"/>
+<view>游戏名称：{{game.name2}}</view>
+<view>游戏简介：{{game.info2}}</view>
+<view>游戏测评：{{game.honour2}}</view>
+<navigator url="/pages/end2/end2">
+      <button>下载</button>
+</navigator>
+<image mode="aspectFit" src="https://bkimg.cdn.bcebos.com/pic/e7cd7b899e510fb344f5d73adf33c895d0430caa?x-bce-process=image/resize,m_lfit,w_500,h_500,limit_1"/>
+<view>游戏名称：{{game.name3}}</view>
+<view>游戏简介：{{game.info3}}</view>
+<view>游戏测评：{{game.honour3}}</view>
+<navigator url="/pages/end3/end3">
+      <button>下载</button>
+</navigator>
+
+
+<!--
+<swiper>
+  <swiper-item><image mode="widfthFix" src="https://s1.ax1x.com/2020/09/28/0VoeaQ.png"/></swiper-item>
+  <swiper-item><image mode="widfthFix" src="https://bkimg.cdn.bcebos.com/pic/d058ccbf6c81800a3f2cc205b63533fa838b47eb?x-bce-process=image/watermark,image_d2F0ZXIvYmFpa2UxODA=,g_7,xp_5,yp_5"/></swiper-item>
+</swiper>
+
+
+<view>
+  <checkbox checked="{{IsLike}}"></checkbox>
+</view>
+
+<view>
+  <view
+  wx:for="{{list}}"
+  wx:for-item="item"
+  wx:for-index="index"
+  wx:key="id"
+  >
+    索引：{{index}}
+    --
+    游戏名称：{{item.name}}
+  </view>
+</view>
+
+<view>
+  <view
+  wx:for="{{game}}"
+  wx:for-item="value"
+  wx:for-index="key"
+  wx:key="name"
+  >
+    属性：{{key}}
+    --
+    值：{{value}}
+  </view>
+</view>
+
+<view>
+  <block
+  wx:for="{{list}}"
+  wx:for-item="value"
+  wx:for-index="key"
+  wx:key="name"
+  >
+    属性：{{key}}
+    --
+    值：{{value.name}}
+  </block>
+</view>
+
+<button>RPG</button>
+<button>FPS</button>
+<button>ACG</button>
+<button>SLG</button>
+-->
